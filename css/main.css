@@ -254,7 +254,7 @@ body {
 
 .mojito-photo {
   width: 420px;
-  height: auto;
+  height: auto; 
   position: relative;
   top: 200px;
 }
@@ -394,14 +394,30 @@ body {
   color: #ffffff;
 }
 
+.quotes-people-sec{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
 .spoons {
   position: relative;
-  left: 940px;
+  align-self: center;
+  width: 40px;
+  height: 9px;
 }
 
 .customers {
   position: relative;
-  left: 850px;
+  left: 600px;
+  font-family: Cormorant Upright;
+font-weight: 600;
+font-size: 64px;
+line-height: 130%;
+letter-spacing: 3%;
+text-transform: capitalize;
+color: var(--sandy-gold);
 }
 
 .text-person {
@@ -411,7 +427,7 @@ body {
   font-size: 16px;
   line-height: 175%;
   position: relative;
-  left: 550px;
+  left: 410px;
   bottom: 190px;
 }
 
@@ -424,7 +440,7 @@ body {
   line-height: 130%;
   letter-spacing: 4%;
   position: relative;
-  left: 560px;
+  left: 410px;
   bottom: 200px;
 }
 
@@ -433,7 +449,7 @@ body {
   line-height: 175%;
   letter-spacing: 4%;
   position: relative;
-  left: 560px;
+  left: 410px;
   bottom: 215px;
   color: var(--light-beige);
 }
@@ -444,7 +460,7 @@ body {
 
 .wade {
   position: relative;
-  left: 300px;
+  left: 150px;
   top: 50px;
 }
 
@@ -460,19 +476,19 @@ body {
 
 .robert {
   position: relative;
-  left: 300px;
+  left: 150px;
   bottom: 600px;
 }
 
 .quotes {
   position: relative;
-  left: 450px;
+  left: 300px;
   top: 25px;
 }
 
 .quote {
   position: relative;
-  left: 450px;
+  left: 300px;
   bottom: 620px;
 }
 
@@ -484,7 +500,7 @@ body {
   line-height: 175%;
   position: relative;
   bottom: 850px;
-  left: 550px;
+  left: 400px;
 }
 
 .name-robert {
@@ -492,7 +508,7 @@ body {
   line-height: 130%;
   letter-spacing: 4%;
   position: relative;
-  left: 560px;
+  left: 410px;
   bottom: 850px;
 }
 
@@ -501,7 +517,7 @@ body {
   line-height: 175%;
   letter-spacing: 4%;
   position: relative;
-  left: 560px;
+  left: 410px;
   bottom: 850px;
   color: var(--light-beige);
 }
@@ -509,7 +525,7 @@ body {
 .jane {
   position: relative;
   bottom: 435px;
-  left: 1000px;
+  left: 850px;
 }
 
 .text-jane {
@@ -520,7 +536,7 @@ body {
   line-height: 175%;
   position: relative;
   bottom: 675px;
-  left: 1250px;
+  left: 1100px;
 }
 
 .name-jane {
@@ -528,7 +544,7 @@ body {
   line-height: 130%;
   letter-spacing: 4%;
   position: relative;
-  left: 1275px;
+  left: 1125px;
   bottom: 690px;
 }
 
@@ -537,21 +553,21 @@ body {
   line-height: 175%;
   letter-spacing: 4%;
   position: relative;
-  left: 1275px;
+  left: 1100px;
   bottom: 710px;
   color: var(--light-beige);
 }
 
 .guillemets {
   position: relative;
-  left: 1150px;
+  left: 1000px;
   bottom: 470px;
 }
 
 .brooklyn {
   position: relative;
   bottom: 1090px;
-  left: 1000px;
+  left: 850px;
 }
 
 .text-brooklyn {
@@ -562,7 +578,7 @@ body {
   line-height: 175%;
   position: relative;
   bottom: 1335px;
-  left: 1250px;
+  left: 1100px;
 }
 
 .name-brooklyn {
@@ -570,7 +586,7 @@ body {
   line-height: 130%;
   letter-spacing: 4%;
   position: relative;
-  left: 1275px;
+  left: 1125px;
   bottom: 1350px;
 }
 
@@ -579,14 +595,14 @@ body {
   line-height: 175%;
   letter-spacing: 4%;
   position: relative;
-  left: 1275px;
+  left: 1100px;
   bottom: 1350px;
   color: var(--light-beige);
 }
 
 .guillemet {
   position: relative;
-  left: 1150px;
+  left: 1000px;
   bottom: 1120px;
 }
 

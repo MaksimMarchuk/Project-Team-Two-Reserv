@@ -235,12 +235,13 @@ body {
   gap: 80px;
   flex-wrap: wrap;
   position: relative;
+  left: 110px;
 }
 
 .mojito-logo {
   text-align: center;
   position: relative;
-  left: 1000px;
+  left: 190px;
 }
 
 .mojito-text {
@@ -249,14 +250,13 @@ body {
   color: #ffffff;
   text-transform: capitalize;
   position: relative;
-  left: 900px;
+  left: 90px;
 }
 
 .mojito-photo {
   width: 420px;
   height: auto; 
   position: relative;
-  top: 200px;
 }
 
 .mojito-dolar {
@@ -376,9 +376,13 @@ body {
   top: 200px;
 }
 
+.mojito-photo-text{
+  list-style: none;
+}
+
 .mojito-name {
   position: relative;
-  left: 930px;
+  left: 120px;
 }
 
 .logo-img {
@@ -615,6 +619,9 @@ color: var(--sandy-gold);
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 763px;
+  background-image: url(/src/video-bg.webp);
 }
 
 .gallery-inst-text {
@@ -803,4 +810,82 @@ h1{
 .sub-main-div{
   display: flex;
   justify-content: center;
+}
+
+.numbers{
+  width: 100%;
+  height: 947px;
+  background-image: url(/src/numbers-bg.webp);
+}
+
+.numbers-sect-main-text{
+  font-family: Cormorant Upright;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+letter-spacing: 4%;
+text-transform: capitalize;
+color: #DCCA87;
+}
+
+.numbers-sect-text{
+  font-family: Open Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 4%;
+color: #AAAAAA;
+width: 180px;
+}
+
+.numbers-sect{
+  display: flex;
+  align-items: center;
+  width: 260px;
+}
+
+.numbers-nextmain-text{
+  font-family: Cormorant Upright;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+letter-spacing: 4%;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.numbers-main-text{
+  font-family: Cormorant Upright;
+font-weight: 600;
+font-size: 64px;
+line-height: 130%;
+letter-spacing: 3%;
+text-transform: capitalize;
+color: #DCCA87;
+}
+
+.numbers-div-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.numbers-item{
+  width: 40px;
+  height: 9px;
+}
+
+.helpful-num-div-one{
+  display: flex;
+}
+
+.helpful-num-div-two{
+  display: flex;
+}
+
+.numbers-full-div{
+  margin-left: 310px;
+  display: flex;
+}
+
+.four-nubmers-div{
+  row-gap: 150px;
 }
